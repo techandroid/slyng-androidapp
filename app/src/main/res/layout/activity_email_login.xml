@@ -1,0 +1,163 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="fill_parent" android:background="@drawable/slyng_template" tools:context=".EmailLogin">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="100">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+
+        android:layout_weight="25">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arrow"
+            android:textSize="30dp"
+            android:paddingTop="10dp"
+            android:gravity="top"
+            android:id="@+id/arrowtv"
+
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/slynglogo"
+
+            />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+            android:paddingTop="20dp"
+            android:orientation="vertical"
+
+        >
+
+
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Email Address"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#00000000"
+                android:textColor="@color/abc_search_url_text_selected"
+
+
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/abc_search_url_text_normal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Password"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#00000000"
+                android:textColor="@color/abc_search_url_text_selected"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/abc_search_url_text_normal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="Sign in"
+                android:background="#cdcdcd"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:text="Forgot password ?"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:text="Sign up with email"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/abc_search_url_text_normal"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="65dp"
+                />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="11"
+                >
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/bestexpface"
+                    android:textSize="10dp"
+                    android:id="@+id/bestexpface"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="right"
+                    android:layout_weight="5"
+
+                    />
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="facebook"
+                    android:textSize="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="5"
+                    />-->
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"></LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

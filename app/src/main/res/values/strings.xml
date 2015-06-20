@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Slyng</string>
+    <string name="arrow"><b>\u2190</b></string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="bestexpface">Slyng is best experienced with <u>facebook</u>.</string>
+
+
+</resources>
